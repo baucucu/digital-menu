@@ -24,6 +24,7 @@ const Logo = () => (
           justify-self: flex-end;
           width: 150px;
           height: 150px;
+          margin-bottom: 40px;
         }
       `}</style>
     </React.Fragment>
