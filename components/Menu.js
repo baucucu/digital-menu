@@ -17,6 +17,7 @@ const Logo = () => (
           transform: rotate(-5deg);
           padding: 20px;
           font-size: 2rem;
+          color: #FFEEDB;
         }
         img {
           grid-column-start: 2;
@@ -80,6 +81,7 @@ const Subcategory = ({ data = { menuItems: [] }, ...props }) => (
         font-size: 3rem;
         margin-right: 20px;
         margin-bottom: 20px;
+        color: #FFEEDB;
       }
       .price {
         margin-left: 20px;
