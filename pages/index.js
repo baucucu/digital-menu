@@ -34,12 +34,12 @@ export default class Index extends React.Component {
     return (
       <React.Fragment>
         <Menu data={this.props.data} />
-        <a href="https://graphcms.com" target="_blank">
+        {/* <a href="https://graphcms.com" target="_blank">
           <img
             src="https://storage.googleapis.com/graphcms-public/powered_by_graphcms.svg"
             alt="Powered by GraphCMS"
           />
-        </a>
+        </a> */}
         <style global jsx>{`
           html,
           body {
