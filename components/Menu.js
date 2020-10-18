@@ -23,7 +23,7 @@ const Subcategory = ({ data = { menuItems: [] }, ...props }) => (
       {data.menuItems.map(element => (
         <li key={element.description}>
           {element.description}
-          <span className="price">{element.price}</span>
+          <span className="price">{element.price} lei</span>
         </li>
       ))}
     </ul>

@@ -2,10 +2,10 @@
   "data": {
     "categories": [
       {
-        "name": "Food",
+        "name": "Mancare",
         "subcategories": [
           {
-            "name": "Plates",
+            "name": "Fel principal",
             "menuItems": [
               {
                 "description": "tuna tartare, avocado, sesame",
@@ -35,7 +35,7 @@
             ]
           },
           {
-            "name": "Bread",
+            "name": "Aperitive",
             "menuItems": [
               {
                 "description": "bread basket, olive oil, taramasalata",
@@ -91,7 +91,7 @@
             ]
           },
           {
-            "name": "Sweet",
+            "name": "Desert",
             "menuItems": [
               {
                 "description":
@@ -111,7 +111,7 @@
         ]
       },
       {
-        "name": "Drinks",
+        "name": "bauturi",
         "subcategories": [
           {
             "name": "Martinis",
