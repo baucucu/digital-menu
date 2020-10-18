@@ -4,7 +4,7 @@ const Logo = () => (
   <React.Fragment>
      
     <h1>
-      meniulm.eu
+    MeniulM.eu/Bar
     </h1>
     <img
       src="../static/logo-white.png"
@@ -59,6 +59,7 @@ const Subcategory = ({ data = { menuItems: [] }, ...props }) => (
         text-transform: uppercase;
         margin-bottom: 10px;
         font-family: Arial;
+        color: #FFEEDB;
       }
       li span {
         min-width: 80px;
@@ -95,10 +96,10 @@ const Category = ({ data = { subcategories: [] }, ...props }) => (
     ))}
     <style jsx>{`
       .category:nth-child(even) {
-        background: #0b0b09;
+        background: #232528;
       }
       .category:nth-child(odd) {
-        background: #a72203;
+        background: #E84855;
       }
       .category {
         padding: 20px;
