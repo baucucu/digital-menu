@@ -1,5 +1,6 @@
 import React from "react";
 import fetch from "isomorphic-unfetch";
+import MenuData from '../static/meniu.js';
 
 import Menu from "../components/Menu";
 
@@ -34,6 +35,7 @@ export default class Index extends React.Component {
     return (
       <React.Fragment>
         <Menu data={this.props.data} />
+        {/* <Menu data={MenuData} /> */}
         <style global jsx>{`
           html,
           body {

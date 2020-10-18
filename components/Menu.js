@@ -1,24 +1,32 @@
 import React from "react";
-import Logo from '../static/logo-white.svg';
-
 
 const Logo = () => (
   <React.Fragment>
+     
     <h1>
-      meniu
-      <style jsx>{`
+      meniulm.eu
+    </h1>
+    <img
+      src="../static/logo-white.png"
+      alt="meniulm.eu"
+    />
+    <style jsx>{`
         h1 {
           margin: 0;
           grid-column-start: 2;
-          justify-self: flex-end;
           transform: rotate(-5deg);
           padding: 20px;
-          font-size: 5rem;
+          font-size: 2rem;
+        }
+        img {
+          grid-column-start: 2;
+          transform: rotate(-5deg);
+          justify-self: flex-end;
+          width: 150px;
+          height: 150px;
         }
       `}</style>
-    </h1>
-    <img src={Logo} alt='logo'></img>
-  </React.Fragment>
+    </React.Fragment>
   
 );
 
@@ -50,6 +58,9 @@ const Subcategory = ({ data = { menuItems: [] }, ...props }) => (
         text-transform: uppercase;
         margin-bottom: 10px;
         font-family: Arial;
+      }
+      li span {
+        min-width: 80px;
       }
       .subcategory {
         display: flex;
