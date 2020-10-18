@@ -1,19 +1,25 @@
 import React from "react";
+import Logo from '../static/logo-white.svg';
+
 
 const Logo = () => (
-  <h1>
-    menu
-    <style jsx>{`
-      h1 {
-        margin: 0;
-        grid-column-start: 2;
-        justify-self: flex-end;
-        transform: rotate(-5deg);
-        padding: 20px;
-        font-size: 5rem;
-      }
-    `}</style>
-  </h1>
+  <React.Fragment>
+    <h1>
+      meniu
+      <style jsx>{`
+        h1 {
+          margin: 0;
+          grid-column-start: 2;
+          justify-self: flex-end;
+          transform: rotate(-5deg);
+          padding: 20px;
+          font-size: 5rem;
+        }
+      `}</style>
+    </h1>
+    <img src={Logo} alt='logo'></img>
+  </React.Fragment>
+  
 );
 
 const Subcategory = ({ data = { menuItems: [] }, ...props }) => (
