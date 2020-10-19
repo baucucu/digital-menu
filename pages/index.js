@@ -28,6 +28,7 @@ export default class Index extends React.Component {
         `
       })
     };
+    
     const { data } = await fetch(url, options).then(res => res.json());
     return { data };
   }
